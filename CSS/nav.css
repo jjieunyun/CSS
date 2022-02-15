@@ -1,0 +1,32 @@
+ul {
+    background-color: #FFDA55;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    border-right: solid 1px gray;
+}
+li:last-child { 
+    border-right: 5px blue; 
+}
+
+li a {
+    display: block;
+    background-color: blueviolet;
+    color: #000000;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+li a.current {
+    background-color: #FF6347;
+    color: white;
+}
+li a:hover:not(.current) {
+    background-color: #CD853F;
+    color: white;
+}

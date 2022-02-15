@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/선택자.css">
+</head>
+<body>
+    <h1>결합선택자</h1>
+    <h3>자손선택자 ' '</h3>
+    <div class="parents">
+        <p>자식요소</p>
+        <div>
+            <p>parents의 자식</p>
+        </div>
+    </div>
+    <p>부모요소가 없습니다</p>
+    <hr>
+    <h3>자식선택자 '>' </h3>
+    <div class="parents_children">
+        <p>자식요소</p>
+        <p>자식요소</p>
+        <p>자식요소</p>
+        <p>자식요소</p>
+        <div>
+            <p>parents의 자식</p>
+        </div>
+    </div>
+    <p>부모요소가 없습니다</p>
+<hr>
+    <h3>일반 동위 선택자 '~' </h3>
+        <p>바깥의 p태그입니다</p>
+    <div class="sibling">
+        <p>sibling 안쪽의 p태그입니다.</p>
+    </div>
+        <p>sibling된 p태그입니다</p>
+        <p>sibling된 p태그입니다</p>
+        <h2>sibling된 h2태그입니다</h2>
+    
+<hr>
+    <div>
+                <h3>인접동위선택자</h3>
+            <div class="adjacent">
+                <p>adjacent의 자식</p>
+            </div>
+                <p>adjacent에 인접한 p태그입니다.반드시 바로 아래있는 태그사용</p>
+                <p>adjacent에 인접하지 않은태그입니다</p>
+                <h2>h2태그</h2>
+    </div>
+<hr>
+    <h1>의사클래스</h1>
+    <h3>동적의사클래스</h3>
+    <div class="hover">
+        마우스를 올리면 배경색이 나타납니다.
+    </div>
+    <input type="text" class="focus" value="미리적힌값">
+    <hr>
+    <h3>상태의사클래스</h3>
+    <p>input태그와 함께사용</p>
+    <div class="input">
+        <input type="checkbox" name="num" checked="checked"><span>HTML</span>
+        <input type="checkbox" name="num" ><span>CSS</span>
+        <input type="checkbox" name="num" disabled="disabled"><span>JS</span>
+    
+        <p>상태의사클래스는 input과 함께사용<br>
+        input태그는 닫는 태그가 없기 때문에 글자가 포함되지 않음<br>
+        따라서 span을 이용해서 글자를 닫아주고 + 를 이용해서 CSS를 적용해줘야함<br>
+        태그로 감싸진 것만 CSS가 적용된다</p>
+    </div>
+    <hr>
+    <h3>구조의사클래스</h3>
+    <div>
+        <p class="first">div의 1번째 자식태그</p>
+        <p>div의2번째 자식태그</p>
+        <p>div의3번째 자식태그</p>
+        <p>first_child는 부모 태그 중에 첫번째로 가지는 태그 or 클래스가 앞의 이름일 때 효과를 준다</p>
+    </div>
+    <section>
+        <p class="first_1">section의 1번째 자식태그</p>
+        <p class="first_1">section의 2번째 자식태그</p>
+        <p class="first_1">section의 3번째 자식태그</p>
+    </section>
+    <article>
+        <h3>first-of type</h3>
+        <p class="type"> 1번째 자식태그</p>
+        <p class="type"> 2번째 자식태그</p>
+        <p class="type"> 3번째 자식태그</p>
+        <p>자식태그로 들어간 최초의 태그에 효과를 준다</p>
+    </article>
+<hr>
+        <h3>의사요소</h3>
+    <div class="pseudo">
+        <p>텍스트 첫글자를 선택합니다</p>
+    </div>
+    <div class="pseudo_line">
+        <p>텍스트 첫글자를 선택합니다<br>
+            줄을 바꾸었습니다</p>
+    </div>
+
+    <div class="before_after">
+        <p>첫문단</p>
+        <p>둘째문단</p>
+    </div>
+
+    <div class="selection">
+        <p>드래그했을때 값변화</p>
+    </div>
+<hr>
+        <h3>속성선택자</h3>
+        <div class="attribute">
+            <div title="div title">타이틀입니다</div>
+            <p title="p title">타이틀입니다</p>
+            <h1 title="h1 title">타이틀입니다</h1>
+        </div>
+
+        <h3>기타 의사 클래스</h3>
+        <div class="not">
+            <p title="y">p태그</p>
+            <p title="o">p태그</p>
+            <p title="t">p태그</p>
+        </div>
+
+</body>
+</html>

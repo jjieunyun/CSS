@@ -1,0 +1,56 @@
+[type="text"] {
+    resize: both;
+}
+
+.resize {
+
+    background-color: aqua;
+    border: black 2px solid;
+    resize: both;
+    overflow: auto;
+}
+
+div {
+    width: 200px;
+    height: 50px;
+
+}
+
+
+.outline_offset {
+    background-color: bisque;
+    outline:1px yellowgreen solid;
+    outline-offset: 30px ;
+    border: 1px solid chartreuse;
+}
+
+.box_sizing {
+    position: relative;
+    top: 30px;
+    background-color: violet;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+section {
+    overflow: auto;
+}
+
+.columns {
+    columns: 50px 3;
+    column-gap: 30px;
+    column-rule: 2px solid springgreen;
+}
+
+.flex_c {
+    background-color: pink;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.flex_c p {
+    background-color: skyblue;
+    
+}

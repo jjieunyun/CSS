@@ -1,0 +1,18 @@
+.title {
+    background-color: coral;
+    padding : 10px;
+    text-align: center;
+    margin-bottom : 20px;
+}
+
+.book {
+    border: 3px dashed black;
+    padding: 15px;
+    border-radius: 10px;
+    min-width:200px ;
+}
+
+p {
+    background-color: blanchedalmond;
+    padding: 10px;
+}

@@ -1,0 +1,31 @@
+.top {
+    background-color: orange;
+    
+}
+
+.table1 {
+    border-collapse:collapse;
+    border-radius: 20px;
+    margin:auto;
+}
+
+.top {
+    border-bottom: 2px solid brown;
+    font-weight: bold;
+
+}
+
+.content {
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    
+}
+
+.content:hover {
+    background-color: rgb(61, 76, 216);
+    color: aliceblue;
+}
+
+td {
+    padding: 10px 20px;
+}

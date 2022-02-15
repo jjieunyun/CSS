@@ -1,0 +1,57 @@
+div {
+    display: inline-block;
+    background-color: blanchedalmond;
+    padding:20px;
+    width: 400px;
+
+}
+
+a {
+    width: 200px;
+    background-color: aquamarine;
+    padding: 20px;
+
+}
+p {
+    background-color: rgb(192, 144, 174);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.none {
+    display:none;
+}
+
+.opacity {
+    filter:opacity(0.5);
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    left:50px;
+}
+
+.fixed {
+    position: fixed;
+    top :0;
+    right: 0;
+    z-index: 1; 
+}
+
+.absolute {
+    position: absolute;
+    right: 0;
+    top: 300px;
+
+}
+
+.clear {
+    background-color: aliceblue;
+    width:auto;
+}

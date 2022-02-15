@@ -1,0 +1,42 @@
+.text {
+    direction: rtl;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    text-decoration : underline overline dotted #8840fc;
+    text-shadow: 2px 1px rgb(153, 132, 209);
+    font-family: fantasy,"배스킨라빈스 B";
+    font-size: 40px;
+}
+/*
+ltr : left to right
+rtl : right to left
+
+*/
+.text_p {
+    text-indent: 10px;
+    line-height: 30px;
+
+}
+.font_h3 {
+    font-family: fantasy,"배스킨라빈스 B";
+    font-size: 30px;
+}
+
+.font {
+    font-family: 'East Sea Dokdo';
+    font-size: 40px;
+    font-style: italic;
+}
+.web_font {
+    font-family:'East Sea Dokdo' ;
+    font-size: 40px;
+    font-weight : bolder;
+    font-style : oblique italic;
+
+}
+
+/*
+font-style : oblique italic 둘다 기울임체
+oblique를 제공하는 브라우저가 거의없다. 따라서 italic채를 사용
+*/

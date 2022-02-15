@@ -1,0 +1,87 @@
+.parents p {
+    background-color: blue;
+    color: aliceblue;
+}
+
+.parents_children > p {
+    background-color: greenyellow;
+}
+
+.sibling ~ p {
+    background-color: blueviolet;
+}
+
+.adjacent + p {
+    background-color: orange;
+}
+
+.hover:hover {
+    background-color: aquamarine;
+}
+
+.focus:focus {
+    color : orangered;
+    font-weight : bold;
+}
+
+.input > input:checked + span {
+    color: coral;
+}
+
+.input > input:disabled + span {
+    text-decoration: line-through;
+}
+
+p.first:first-child {
+    background-color: skyblue;
+}
+
+/*
+모든 부모의 첫번째 자식에게 색이 입혀짐
+*/
+
+p.first_1:last-child {
+    background-color: palevioletred;
+}
+
+p.first_1:nth-child(2) {
+    background-color: lightgreen;
+}
+
+p.type:first-of-type {
+    background-color: navy;
+    color:aliceblue
+}
+
+.pseudo > p::first-letter {
+    font-size: 2em;
+}
+
+.pseudo_line > p::first-letter {
+    text-decoration: underline;
+}
+
+.before_after > p::before {
+    content : "항상같은말";
+}
+
+.before_after > p::after {
+    background-color: blue;
+    display: block;
+    width: 20px;
+    height: 20px;
+    content: '1';
+}
+
+.selection > p::selection {
+    color : cadetblue;
+    background-color: lemonchiffon;
+}
+
+[title] { 
+    background-color: lightcoral;
+}
+
+.not > p:not([title="y"]) {
+    color:whitesmoke
+}

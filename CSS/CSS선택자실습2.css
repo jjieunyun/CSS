@@ -1,0 +1,11 @@
+
+.arlam > p::after {
+    background-color: orange;
+    color: azure;
+    display:inline-block;
+    content: 'N';
+    border-radius: 100%;
+    padding:1px 5px;
+    font-weight: bold;
+    text-align: center;
+}

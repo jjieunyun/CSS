@@ -1,0 +1,18 @@
+div {
+    background-color: bisque;
+    padding: 10px;
+}
+
+ul {
+    overflow: auto;
+    padding: 20px;
+    
+}
+
+li {
+    float:inline-start;
+    padding: 20px;
+    float: left;
+    background-color: olivedrab;
+    list-style-type:none;
+}

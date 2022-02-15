@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/background-color.css">
+    <link rel="stylesheet" href="../CSS/text-font.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/link-list.css">
+    <link rel="stylesheet" href="../CSS/table-sprite.css">
+   
+</head>
+<body class="background_image">
+    <h1>CSS기본 속성 확인</h1>
+    <h3>color를 통한 색상 넣기</h3>
+    <p class="color_name">CSS 색 이름으로 색 넣기 : yellow</p>
+    <p class="color_rgb">CSS RGB()값으로 색 넣기 : rgb(255,255,0)</p>
+    <p class="color_16">CSS 16진수 값으로 색 넣기 : #FFFF00</p>
+
+    <!--css파일을 클래스 이름을 넣어서 먼저 작성 하고 ctrl + space 누르면
+        미리 작성해둔 클래스이름이 뜸!-->
+
+    <H3>Backrground를 통한 이미지 넣기</H3>
+    <div>
+        <p>body의 Backrground에 이미지 넣기</p>
+        <p>이미지링크를 통해서 이미지를 넣을 수 있으며 <br>
+            기본값은 repeat이다. : no, x, y, repeat 
+        </p>
+        <p>
+            세로축 위치 : top, center, bottom <br>
+            가로축 위치 : left, center, right <br>
+        </p>
+        <p>
+            <h3>'background-attachment'를 통해 위치를 고정시켜 줄 수있다.</h3>
+            fixed : 스크롤을 내렸을 때 움직이지 않음<br>
+            scroll : 스크롤을 내렸을 때 따라 움직임(기본값)<br>
+        </p>
+    </div>
+
+    <h3>텍스트 속성확인</h3>
+    <p class="text">텍스트가 오른쪽에서 작성됩니다</p>
+    <p class="text_p">등산 중 사망 원인이 실족사를 제외하면 대부분이 저체온증인 것을 볼 때 등산 시 저체온증 대처 방법을 꼭 기억하고 있어야 합니다. 
+
+        저체온증은 사람의 체온이 35°C 이하로 떨어져 정상 체온을 유지하지 못하는 증세를 말합니다. 
+        
+        증상은 체온이 얼마나 떨어졌느냐에 따라 다릅니다. 경도 저체온증에서는 떨림과 정신적 혼란이 나타납니다. 중등도 저체온증에서는 떨림이 멈추고 혼란이 더욱 증가합니다. 
+        
+        심한 저체온증에서는 오히려 옷을 벗으려고 하며, 이로 인해 심장이 멈출 위험이 증가할 수 있습니다. 심한 저체온증에서 오히려 옷을 벗는 증상은 전형적이며, 산악생존기술 훈련을 받은 구조대원들의 경우 이를 예상하도록 교육을 받습니다. 
+        
+        저체온증 사망의 20~50%는 옷을 벗는 것과 관련이 있다고 알려져 있습니다. 오히려 옷을 벗는 증상은 뇌의 시상하부가 추위로 인해 오작동하기 때문이라는 가설이 있으며, 다른 가설은 말초 혈관을 수축시키는 근육이 소진되고 이완되어 사지에 혈액이 급증해 과열된 느낌을 받기 때문이라는 것입니다.
+        <br>
+        저체온증 대처법 기사입니다.
+        </p>
+        <hr>
+        <h3 class="font_h3">Font 속성 확인</h3>
+        <p class="font">fantasy 글꼴 속성입니다.</p>
+
+        <h3>웹폰트를 사용해서 글자를 출력하기</h3>
+        <p style="font-family : 'East Sea Dokdo'; font-size: 25px;">link를 통해 들고온 웹폰트</p>
+        <p class="web_font">CSS를 통해 들고온 웹폰트 html에도 링크를 걸어두어야한다.</p>
+        <hr>
+        <h3>링크에 CSS효과로 꾸미기</h3>
+        <a href="https://www.naver.com" alt="naver">naver</a>
+
+        <h3>리스트에 CSS효과로 꾸미기</h3>
+        <h3>순서가 없는 리스트</h3>
+        <ul class="u_list_mark">
+            <li>순서가 없는 리스트</li>
+            <li>순서가 없는 리스트</li>
+            <li>순서가 없는 리스트</li>
+
+        </ul>
+        <ol class="o_list_mark">
+            <li>순서가 있는 리스트</li>
+            <li>순서가 있는 리스트</li>
+            <li>순서가 있는 리스트</li>
+            <li>순서가 있는 리스트</li>
+
+        </ol>
+        <div>
+            <p>list-sytle-type을 none으로 만들면 앞의 숫자 혹은 마크가 없어진다.</p>
+        </div>
+        <hr>
+        <div>
+            <h1>테이블에 CSS효과 넣기</h1>
+            <table>
+                <tr>
+                    <td>동물의종류</td>
+                    <td>개월수</td>
+                    <td>이름</td>
+                </tr>
+                <tr>
+                    <td>강아지</td>
+                    <td>5</td>
+                    <td>루이</td>
+                </tr>
+                <tr>
+                    <td>강아지</td>
+                    <td>5</td>
+                    <td></td>
+                </tr>
+            </table>
+            <p>
+                border-collapse속성은
+                collapse(합치기) separate(분리) 값이 있다. <br>
+                이때 empty-cells를 사용할 때는 separate 속성값일때 사용가능하다.<br>
+                border-spacing도 동일
+
+            </p>
+
+        </div>
+
+            <div>
+                <h1>이미지 스프라이트 활용하기</h1>
+                <div class="up"></div>
+                <div class="down"></div>
+                <div class="right"></div>
+                <div class="left"></div>
+
+                <p>이미지 스프라이트는 배경이미지를 통해서 그림을 잘라서 사용한다<br>
+                    이때 div의 width와 height를 사용하여 배경이미지를 사용할 공간을 지정한다</p>
+                    <br>div는 안에 컨텐츠가 없으면 공간을 주지 않는다.
+            </div>
+
+
+
+</body>
+</html>

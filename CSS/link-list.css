@@ -1,0 +1,41 @@
+a {
+    display:inline-block;
+    padding: 5px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;   
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+    background-color: rgb(253, 242, 137);
+}
+
+/*
+hover를 작성할때는 link와 visited가 작성되는것이 좋음
+*/
+
+a:active {
+    color:yellowgreen;
+    background-color: blue;
+}
+
+.u_list_mark {
+    list-style-image: url("../img/pencil\ \(3\).png");
+    list-style-position: outside;
+}
+
+.o_list_mark {
+    list-style-type: lower-alpha;
+    list-style-position: inside;
+}
+
+li{
+    background-color: rgb(230, 245, 224);
+}
+
+

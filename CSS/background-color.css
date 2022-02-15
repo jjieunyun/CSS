@@ -1,0 +1,43 @@
+.color_name {
+    color : yellow;
+    background-color: black;
+}
+.color_rgb {
+    color : rgb(255,255,00);
+    background-color: rgb(0,0,0);
+}
+.color_16 {
+    color : #ffff00;
+    background-color: #F79792;
+}
+/*
+16진수는 세자리로 적어도 인식이 가능하다.
+3자리 수로 넣게 되면 각 R,G,B값에 한자리 씩 들어가게된다.
+
+https://color.adobe.com/ko/create/color-wheel
+색상파레트
+
+./ 현재위치에서 찾는다
+../ 현재위치의 상위폴더에서 찾는다
+/ 루트 혹은 시작폴더에서 찾는다.
+
+*/
+.background_image {
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,1)), url("../img/flowers.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+/*
+https://developer.mozilla.org/en-US/docs/Web/CSS/background-position
+background position 참고 사이트
+
+linear-gradient(rgba,) : 괄호안에 시작값과 끝값을 넣으면 됨.
+rgba : 마지막에 알파값을 넣어서 투명도를 조절할 수 있다.
+*/
+
+.background_image2 {
+    background-image : url("../img/flowers.jpg") bottom fixed no-repeat;
+     ; 
+
+}

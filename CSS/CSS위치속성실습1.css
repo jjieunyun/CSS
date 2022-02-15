@@ -1,0 +1,23 @@
+.bookmark {
+    border: 3px solid black;
+    width: 150px;
+    padding: 10px;
+    background-color: salmon;
+    position: fixed;
+    top :0;
+    right: 0;
+    z-index: 1; 
+}
+
+li {
+    list-style-type: none;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: aliceblue;
+}

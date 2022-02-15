@@ -1,0 +1,29 @@
+h1 {
+    font-family : fantasy
+}
+
+.listname {
+    text-decoration : underline wavy red 2px;
+    color: olive;
+    font-family: '궁서';
+}
+li {
+    list-style-type:circle;
+}
+
+.link:link, .link:visited {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    font-style :italic ;
+    text-shadow: 1px  2px 2px gray;
+}
+
+.edge {
+    width : 200px;
+    border : 2px solid olive;
+    background-color: beige;
+}

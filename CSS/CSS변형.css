@@ -1,0 +1,44 @@
+
+
+.rotation_2d {
+    border: 1px solid salmon;
+    background-color: aquamarine;
+    transform: rotate(23deg);
+
+}
+
+.rotation_3d {
+    border: 1px solid salmon;
+    background-color: aquamarine;
+    transform: rotatex(45deg);
+    transform: rotatey(45deg);
+    transform: rotatez(45deg);
+
+}
+
+.transition {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(0deg);
+    transition: width 1s, transform 1s;
+}
+
+.transition:hover {
+    transition: width 1s;
+    transform: rotate(45deg);
+
+}
+
+.keyframe {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: rotation;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+}
+@keyframes rotation {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(180deg);}
+}

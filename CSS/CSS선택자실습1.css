@@ -1,0 +1,24 @@
+.content {
+    border: 2px solid coral;
+    padding: 10px;
+}
+
+.color {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.color_name {
+    text-decoration: none;
+}
+
+.botton {
+    list-style-type: none;
+    float: right;
+    padding: 5px 10px;
+    margin: 5px;
+    background-color: blue;
+    color: aliceblue;
+    border-radius: 20px;
+}
+

@@ -1,0 +1,58 @@
+.color_gr {
+    background-color: aliceblue;
+    background: -webkit-linear-gradient(lightyellow 50% lightpink 50%);
+    background: linear-gradient(to right,lightyellow, lightpink);
+    width: 200px;
+    height: 100px;
+} 
+
+.color_css3 {
+    width: 200px;
+    height: 100px;
+    background-color: rgba(255,255,0,0.5);
+}
+
+.color_grd_deg {
+    background: linear-gradient(180deg, green, yellow);
+    width: 200px;
+    height: 100px;
+}
+
+.color_grd_circle {
+    background: radial-gradient(closest-corner, navy, red);
+    width: 200px;
+    height: 100px;
+    box-shadow: 1px 1px 3px gray;
+}
+
+.background_img {
+    border: 10px solid black;
+    width: 200px;
+    height: 100px;
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/29/14/30/cinque-terre-4237666_960_720.jpg");
+    background-size: 200px 100px;
+    padding: 100px;
+    background-origin: padding-box;
+}
+
+.border_image {
+    border: 20px solid transparent;
+    border-image: url("../img/KakaoTalk_20220211_090832593.png") 33 round;
+    width: 200px;
+    height: 100px;
+}
+.text_overflow {
+    text-overflow:ellipsis;
+    width: 350px;
+    height: 1.2em;
+    border: 1px solid black;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.word_wrap {
+    border: 1px solid black;
+    width: 130px;  
+    word-wrap: break-word;
+
+}

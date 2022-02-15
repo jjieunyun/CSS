@@ -1,0 +1,15 @@
+
+.botton:link, .botton:visited {
+    text-decoration: none;
+    color: navy;
+    display:inline-block;
+    padding: 5px;
+    background-color: yellowgreen;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.botton:hover {
+    color: khaki;
+    background-color: navy;
+}
